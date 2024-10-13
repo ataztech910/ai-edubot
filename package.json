@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"pnpm --filter api-edubot dev\" \"pnpm --filter frontend-edubot dev\" \"pnpm --filter bot-edubot dev\"",
-    "build": "concurrently \"pnpm --filter frontend-edubot build\" \"pnpm --filter bot-edubot build\"",
-    "start": "concurrently \"pnpm --filter bot-edubot start\"  \"pnpm --filter frontend-edubot start\" \"pnpm --filter bot-edubot start\"",
+    "build": "concurrently \"pnpm --filter frontend-edubot build\" \"pnpm --filter api-edubot build\"",
+    "start": "concurrently \"pnpm --filter api-edubot start\"  \"pnpm --filter frontend-edubot start\" \"pnpm --filter bot-edubot start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
