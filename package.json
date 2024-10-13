@@ -1,0 +1,16 @@
+{
+  "name": "tgbot-with-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter api-edubot dev\" \"pnpm --filter frontend-edubot dev\" \"pnpm --filter bot-edubot dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
